@@ -1,20 +1,54 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Introdução
+Scripts de testes de performance, construidos com o JMeter. 
+- Script Google : Performance-google.jmx
+- Script Yahoo : Performance-yahoo.jmx
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+# Começando
+Antes de efetuar os testes familiarize com o JMeter e configure o Grupo de Usuários para:
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+Número de usuários virtuais(threads): 30
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+> Número de usuários
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://www.visualstudio.com/en-us/docs/git/create-a-readme). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+Tempo de inicialização: 120 
+
+> Tempo de colocar todos as threads em funcionamento.
+
+> Cada thread iniciará 4s \(120/30) após início da thread anterior.
+
+Contador de iteração: 10
+
+> Definir o número de vezes para executar o teste.
+
+- Script Yahoo : Performance-yahoo.jmx
+
+Número de usuários virtuais(threads): 30
+
+Tempo de inicialização: 120 
+
+Contador de iteração: 10
+
+
+
+
+
+# Teste do script
+No VSTS:
+
+Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que aparece no item \'Test script\' escolha o script:
+- Performance-google.jmx
+ou
+- Performance-yahoo.jmx
+
+Para \'Number of agents\' escolha 1. 
+
+Para \'Load duration\' escolha 10 minutes.
+
+Para \'Load location\' escola Brazil South \(Sao Paulo State).
+
+
+# Contribuição
+@msergio
+
+# JMeter
+- [Tutorial de plano de test do JMeter](http://jmeter.apache.org/usermanual/build-web-test-plan.html)
