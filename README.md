@@ -1,10 +1,19 @@
-# Introdução
-Scripts de testes de performance, construidos com o JMeter. 
-- Script Google : Performance-google.jmx
-- Script Yahoo : Performance-yahoo.jmx
+# Teste de Performance com Jmeter(POC)
+Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
 
-# Começando
-Antes de efetuar os testes familiarize com o JMeter e configure o Grupo de Usuários para:
+## Introdução
+Prova de conceito(POC) envolvendo scripts de testes para análise da performance do site.
+
+Ajustes de scripts, para prover os tipos de **testes de performance**. 
+- Script Google : **vsts/Performance-google.jmx**
+- Script Yahoo : **vsts/Performance-yahoo.jmx**
+
+## Começando
+Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scripts abaixo para testes na máquina local.
+- Script Google : **local/Performance-prx-google.jmx**
+- Script Yahoo : **local/Performance-prx-yahoo.jmx**
+
+Configure o Grupo de Usuários para:
 
 Número de usuários virtuais(threads): 30
 
@@ -20,35 +29,24 @@ Contador de iteração: 10
 
 > Definir o número de vezes para executar o teste.
 
-- Script Yahoo : Performance-yahoo.jmx
-
-Número de usuários virtuais(threads): 30
-
-Tempo de inicialização: 120 
-
-Contador de iteração: 10
-
-
-
-
-
-# Teste do script
+## Teste do script
 No VSTS:
 
-Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que aparece no item \'Test script\' escolha o script:
+Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que aparece no item \'Test script\' escolha um dos scripts:
 - Performance-google.jmx
-ou
 - Performance-yahoo.jmx
 
 Para \'Number of agents\' escolha 1. 
 
 Para \'Load duration\' escolha 10 minutes.
 
-Para \'Load location\' escola Brazil South \(Sao Paulo State).
+Para \'Load location\' escolha Brazil South \(Sao Paulo State).
 
-
-# Contribuição
+## Contribuição
 @msergio
 
-# JMeter
+## JMeter
 - [Tutorial de plano de test do JMeter](http://jmeter.apache.org/usermanual/build-web-test-plan.html)
+
+## Notas de versão
+Versão inicial dos scripts 1.0.0
