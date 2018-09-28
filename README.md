@@ -1,5 +1,27 @@
 # Teste de Performance com Jmeter(POC)
-Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
+Modelagem dos Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
+
+### Conceitos de testes de performance
+Num **Teste de Performance** podemos avaliar a capacidade de:
+
+- Carga 
+  
+  Teste realizado para verificar se um sistema suporta uma determinada carga desejada.
+    - Volume de tráfego para um determinado sistema. 
+  
+        Geralmente medida em transações, requisições ou usuários.
+        - Transação
+
+            Operação completa no sistema. Exemplo: buscar um produto.
+        - Requisição 
+            
+            Requisição http realizada.
+- Estresse 
+  
+  Teste feito para determinar a capacidade máxima do sistema.
+- Estabilidade 
+  
+  Teste realizado para verificar se o sistema degrada o desempenho com o tempo.
 
 ## Introdução
 Prova de conceito(POC) envolvendo scripts de testes para análise da performance do site.
