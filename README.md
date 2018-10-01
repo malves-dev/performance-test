@@ -50,7 +50,7 @@ Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scri
 - Script Yahoo :
   - **local/Performance-prx-yahoo.jmx**
     - [X] Testes de requisições
-    - [ ] Teste de asserções
+    - [X] Teste de asserções
 
 Configure o Grupo de Usuários para:
 
@@ -96,3 +96,4 @@ Para \'Load location\' escolha Brazil South \(Sao Paulo State).
 Versão inicial dos scripts 1.0.0
 
 - Testes com requisições google e yahoo.
+- Testes de asserções google e yahoo.
