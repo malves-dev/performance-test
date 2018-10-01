@@ -72,3 +72,4 @@ Para \'Load location\' escolha Brazil South \(Sao Paulo State).
 
 ## Notas de versão
 Versão inicial dos scripts 1.0.0
+- Testes com requisições google e yahoo.
