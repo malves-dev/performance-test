@@ -1,39 +1,56 @@
-# Teste de Performance com Jmeter(POC)
+# Teste de Performance com Jmeter(PoC)
+
 Modelagem dos Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
 
+## Atenção
+
+Os testes inicias serão realizados scripts para o Yahoo e Google, numa fase posterior serão realizados com scripts específicos da Alelo.
+
 ### Conceitos de testes de performance
+
 Num **Teste de Performance** podemos avaliar a capacidade de:
 
-- Carga 
-  
+- Carga
   Teste realizado para verificar se um sistema suporta uma determinada carga desejada.
-    - Volume de tráfego para um determinado sistema. 
-  
-        Geralmente medida em transações, requisições ou usuários.
-        - Transação
+  - Volume de tráfego para um determinado sistema.
+    Geralmente medida em transações, requisições ou usuários.
+    - Transação
 
-            Operação completa no sistema. Exemplo: buscar um produto.
-        - Requisição 
-            
-            Requisição http realizada.
-- Estresse 
+      Operação completa no sistema. Exemplo: buscar um produto.
+    - Requisição
+
+      Requisição http realizada.
+- Estresse
   
   Teste feito para determinar a capacidade máxima do sistema.
-- Estabilidade 
-  
+
+- Estabilidade
+
   Teste realizado para verificar se o sistema degrada o desempenho com o tempo.
 
 ## Introdução
-Prova de conceito(POC) envolvendo scripts de testes para análise da performance do site.
 
-Ajustes de scripts, para prover os tipos de **testes de performance**. 
+Prova de conceito(PoC) envolvendo scripts de testes para análise da performance do site.
+
+Ajustes de scripts, para prover os tipos de **testes de performance**.
+
 - Script Google : **vsts/Performance-google.jmx**
 - Script Yahoo : **vsts/Performance-yahoo.jmx**
 
-## Começando
+## Começando a realização dos testes
+
 Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scripts abaixo para testes na máquina local.
-- Script Google : **local/Performance-prx-google.jmx**
-- Script Yahoo : **local/Performance-prx-yahoo.jmx**
+
+### Performance
+
+- Script Google :
+  - **local/Performance-prx-google.jmx**
+    - [X] Testes de requisições
+    - [ ] Teste de asserções
+- Script Yahoo :
+  - **local/Performance-prx-yahoo.jmx**
+    - [X] Testes de requisições
+    - [ ] Teste de asserções
 
 Configure o Grupo de Usuários para:
 
@@ -41,7 +58,7 @@ Número de usuários virtuais(threads): 30
 
 > Número de usuários
 
-Tempo de inicialização: 120 
+Tempo de inicialização: 120
 
 > Tempo de colocar todos as threads em funcionamento.
 
@@ -52,9 +69,11 @@ Contador de iteração: 10
 > Definir o número de vezes para executar o teste.
 
 ## Teste do script
+
 No VSTS:
 
 Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que aparece no item \'Test script\' escolha um dos scripts:
+
 - Performance-google.jmx
 - Performance-yahoo.jmx
 
@@ -65,10 +84,15 @@ Para \'Load duration\' escolha 10 minutes.
 Para \'Load location\' escolha Brazil South \(Sao Paulo State).
 
 ## Contribuição
+
 @msergio
 
 ## JMeter
+
 - [Tutorial de plano de test do JMeter](http://jmeter.apache.org/usermanual/build-web-test-plan.html)
 
 ## Notas de versão
+
 Versão inicial dos scripts 1.0.0
+
+- Testes com requisições google e yahoo.
