@@ -41,7 +41,7 @@ Ajustes de scripts, para prover os tipos de **testes de performance**.
 
 Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scripts abaixo para testes na máquina local.
 
-### Performance
+### Plano de teste de Performance
 
 - Script Google :
   - **local/Performance-prx-google.jmx**
