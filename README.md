@@ -46,7 +46,7 @@ Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scri
 - Script Google :
   - **local/Performance-prx-google.jmx**
     - [X] Testes de requisições
-    - [ ] Teste de asserções
+    - [X] Teste de asserções
 - Script Yahoo :
   - **local/Performance-prx-yahoo.jmx**
     - [X] Testes de requisições
