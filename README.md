@@ -1,17 +1,18 @@
 # Teste de Performance com Jmeter(POC)
 Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
+Neste momento estão sendo usados URLs não proprietárias da ALELO, no seu lugar usaremos URLS do Google e YaHOO, para darmos legalidade dos testes:
 
 ## Introdução
 Prova de conceito(POC) envolvendo scripts de testes para análise da performance do site.
 
-Ajustes de scripts, para prover os tipos de **testes de performance**. 
-- Script Google : **vsts/Performance-google.jmx**
-- Script Yahoo : **vsts/Performance-yahoo.jmx**
+Ajustes de scripts, para prover os tipos de **testes de performance e assertivo**. 
+- Scripts Google : **vsts/Performance-google.jmx**, **vsts/Assert-google.jmx**
+- Scripts Yahoo : **vsts/Performance-yahoo.jmx**, **vsts/Assert-yahoo.jmx**
 
 ## Começando
 Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scripts abaixo para testes na máquina local.
-- Script Google : **local/Performance-prx-google.jmx**
-- Script Yahoo : **local/Performance-prx-yahoo.jmx**
+- Scripts Google : **local/Performance-prx-google.jmx**, **vsts/Assert-prx-google.jmx**
+- Scripts Yahoo : **local/Performance-prx-yahoo.jmx**, **vsts/Assert-prx-yahoo.jmx**
 
 Configure o Grupo de Usuários para:
 
@@ -35,6 +36,8 @@ No VSTS:
 Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que aparece no item \'Test script\' escolha um dos scripts:
 - Performance-google.jmx
 - Performance-yahoo.jmx
+- Assert-google.jmx
+- Assert-yahoo.jmx
 
 Para \'Number of agents\' escolha 1. 
 
