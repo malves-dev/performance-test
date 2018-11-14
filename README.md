@@ -47,10 +47,12 @@ Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scri
   - **local/Performance-prx-google.jmx**
     - [X] Testes de requisições
     - [X] Teste de asserções
+    - [ ] Teste de API rest
 - Script Yahoo :
   - **local/Performance-prx-yahoo.jmx**
     - [X] Testes de requisições
     - [X] Teste de asserções
+    - [ ] Teste de API rest
 
 Configure o Grupo de Usuários para:
 
