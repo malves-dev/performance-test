@@ -1,10 +1,11 @@
 # Teste de Performance com Jmeter(PoC)
 
-Modelagem dos Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
+Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
+Neste momento estão sendo usados URLs não proprietárias da ALELO, no seu lugar usaremos URLS do Google, YaHOO e Azure, para darmos legalidade dos testes.
 
 ## Atenção
 
-Os testes inicias serão realizados scripts para o Yahoo e Google, numa fase posterior serão realizados com scripts específicos da Alelo.
+Os testes inicias serão realizados scripts para o Yahoo, Google e Azure, numa fase posterior serão realizados com scripts específicos da Alelo.
 
 ### Conceitos de testes de performance
 
@@ -32,10 +33,11 @@ Num **Teste de Performance** podemos avaliar a capacidade de:
 
 Prova de conceito(PoC) envolvendo scripts de testes para análise da performance do site.
 
-Ajustes de scripts, para prover os tipos de **testes de performance**.
+Ajustes de scripts, para prover os tipos de **Testes de performance, assertação**.
 
-- Script Google : **vsts/Performance-google.jmx**
-- Script Yahoo : **vsts/Performance-yahoo.jmx**
+- Script Google: **vsts/Performance-google.jmx - vsts/Assertion-google.jmx**
+- Script Yahoo: **vsts/Performance-yahoo.jmx - vsts/Assertion-yahoo.jmx**
+- Script Azure: **vsts/Performance-azure-api-rest.jmx**
 
 ## Começando a realização dos testes
 
@@ -47,12 +49,23 @@ Antes de ajustar os scripts de testes familiarize com o JMeter e utilize os scri
   - **local/Performance-prx-google.jmx**
     - [X] Testes de requisições
     - [X] Teste de asserções
-    - [ ] Teste de API rest
+
 - Script Yahoo :
   - **local/Performance-prx-yahoo.jmx**
     - [X] Testes de requisições
     - [X] Teste de asserções
-    - [ ] Teste de API rest
+
+- Script Azure:
+  - **local/Performance-prx-azure-api-rest.jmx**
+    - [X] Testes de requisições
+    - [X] Teste de asserções
+    - [X] Teste de API rest
+
+- Script Local API:
+  - **Performance-localhost-api-rest.jmx**
+    - [X] Testes de requisições
+    - [X] Teste de asserções
+    - [X] Teste de API rest
 
 Configure o Grupo de Usuários para:
 
@@ -79,11 +92,11 @@ Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que apare
 - Performance-google.jmx
 - Performance-yahoo.jmx
 
-Para \'Number of agents\' escolha 1. 
+> Para \'Number of agents\' escolha 1.
 
-Para \'Load duration\' escolha 10 minutes.
+> Para \'Load duration\' escolha 10 minutes.
 
-Para \'Load location\' escolha Brazil South \(Sao Paulo State).
+> Para \'Load location\' escolha Brazil South \(Sao Paulo State).
 
 ## Contribuição
 
