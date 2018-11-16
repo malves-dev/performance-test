@@ -87,10 +87,13 @@ Contador de iteração: 10
 
 No VSTS:
 
-Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que aparece no item \'Test script\' escolha um dos scripts:
+Ir para o Test Plans > Load Test > New > Apache JMeter Test, na página que aparece no item \'Test script\' escolha um dos scripts:
 
-- Performance-google.jmx
-- Performance-yahoo.jmx
+- Performance-google.jmx 
+- Assertion-google.jmx
+- Performance-yahoo.jmx 
+- Assertion-yahoo.jmx
+- Performance-azure-api-rest.jmx
 
 > Para \'Number of agents\' escolha 1.
 
@@ -98,7 +101,7 @@ Ir para o Menu Test > Load Test > New > Apache JMeter Test, na página que apare
 
 > Para \'Load location\' escolha Brazil South \(Sao Paulo State).
 
-## Contribuição
+## Colaboradores
 
 @msergio
 
