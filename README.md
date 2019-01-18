@@ -77,7 +77,7 @@ Tempo de inicialização: 120
 
 > Tempo de colocar todos as threads em funcionamento.
 
-> Cada thread iniciará 4s \(120/30) após início da thread anterior.
+> Cada thread iniciará 4s (120/30) após início da thread anterior.
 
 Contador de iteração: 10
 
@@ -99,7 +99,7 @@ Ir para o Test Plans > Load Test > New > Apache JMeter Test, na página que apar
 
 > Para \'Load duration\' escolha 10 minutes.
 
-> Para \'Load location\' escolha Brazil South \(Sao Paulo State).
+> Para \'Load location\' escolha Brazil South (Sao Paulo State).
 
 ## Colaboradores
 
