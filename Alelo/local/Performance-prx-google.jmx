@@ -40,7 +40,7 @@
           <stringProp name="HTTPSampler.proxyHost">proxylatam.indra.es</stringProp>
           <stringProp name="HTTPSampler.proxyPort">8080</stringProp>
           <stringProp name="HTTPSampler.proxyUser">msergio</stringProp>
-          <stringProp name="HTTPSampler.proxyPass">19#2Mar1960</stringProp>
+          <stringProp name="HTTPSampler.proxyPass">21#2Mar1960</stringProp>
           <stringProp name="HTTPSampler.connect_timeout"></stringProp>
           <stringProp name="HTTPSampler.response_timeout"></stringProp>
         </ConfigTestElement>
