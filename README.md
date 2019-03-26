@@ -1,11 +1,11 @@
 # Teste de Performance com Jmeter(PoC)
 
-Scripts de testes de performance para serem utilizados no VSTS atendendo a Alelo.
-Neste momento estão sendo usados URLs não proprietárias da ALELO, no seu lugar usaremos URLS do Google, YaHOO e Azure, para darmos legalidade dos testes.
+Scripts de testes de performance para serem utilizados no VSTS atendendo a um site qualquer.
+Neste momento estão sendo usados URLs não proprietárias de um site qualquer, no seu lugar usaremos URLS do Google, Yahoo e Azure, para darmos legalidade dos testes.
 
 ## Atenção
 
-Os testes inicias serão realizados scripts para o Yahoo, Google e Azure, numa fase posterior serão realizados com scripts específicos da Alelo.
+Os testes inicias serão realizados scripts para o Yahoo, Google e Azure, numa fase posterior serão realizados com scripts específicos de um site qualquer.
 
 ### Conceitos de testes de performance
 
